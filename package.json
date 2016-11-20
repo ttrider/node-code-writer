@@ -1,0 +1,41 @@
+{
+    "name": "node-code-writer",
+    "version": "0.0.1",
+    "author": {
+        "name": "Vladimir Yangurskiy",
+        "email": "software@ttrider.com"
+    },
+    "contributors": [{
+        "name": "Vladimir Yangurskiy",
+        "url": "www.ttrider.com"
+    }],
+    "description": "Code writer that helps to generate C style code",
+    "keywords": [
+        "codegen"
+    ],
+    "homepage": "https://github.com/ttrider/node-code-writer",
+    "scripts": {},
+    "main": "./lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ttrider/node-code-writer.git"
+    },
+    "dependencies": {
+        "string": "^3.3.1"
+    },
+    "devDependencies": {},
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.4.0"
+    },
+    "readmeFilename": "README.md",
+    "bugs": {
+        "url": "https://github.com/ttrider/node-code-writer/issues"
+    },
+    "_id": "node-code-writer@0.0.1",
+    "dist": {
+
+    },
+    "_from": "node-code-writer@",
+    "_resolved": ""
+}
