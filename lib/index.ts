@@ -26,11 +26,27 @@ export class CodeWriter {
         this.outputStream.write(os.EOL);
     }
 
+    writeIndentLines(lines?: string[]) {
+        if (lines) {
+            for (let l = 0; l < lines.length; l++) {
+                this.writeIndentLine(lines[l]);
+            }
+        }
+    }
+
     writeLine(value?: string) {
         if (value) {
             this.outputStream.write(value);
         }
         this.outputStream.write(os.EOL);
+    }
+
+    writeLines(lines?: string[]) {
+        if (lines) {
+            for (let l = 0; l < lines.length; l++) {
+                this.writeLine(lines[l]);
+            }
+        }
     }
 
     write(value) {
